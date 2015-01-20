@@ -1,0 +1,23 @@
+{
+  "name": "fuck-neulion-vlc",
+  "version": "1.0.0",
+  "description": "see-also: /r/nhlstreams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hockey",
+    "vlc",
+    "nhl"
+  ],
+  "author": "Christopher 'Chief' Najewicz <chief@beefdisciple.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.8.1",
+    "commander": "^2.6.0",
+    "dejsonp": "0.0.2",
+    "lodash": "^2.4.1",
+    "request-promise": "^0.3.3"
+  }
+}
