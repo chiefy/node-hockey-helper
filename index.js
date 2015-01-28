@@ -7,12 +7,9 @@ hockey.checkJavaAsync()
 	}, function(err) {
 		console.error('Could not find Java installed, please install Java and then try again.');	
 	})
-	.then(hockey.findVLCPathAsync().bind(hockey))
+	.then(hockey.findVLCPathAsync.bind(hockey))
 	.then(hockey.getGameIDsAsync.bind(hockey))
-	.then(function(data) {
-		console.info('got game data ', data);
-	}, function(err) {
-		throw err;
-	});
-
+	.then(hockey.pickGameAsync.bind(hockey))
+	.then(hockey.launchFNAsync.bind(hockey))
+	.then(hockey.launchVLC.bind(hockey));
 
