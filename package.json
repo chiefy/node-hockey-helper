@@ -2,6 +2,7 @@
   "name": "fuck-neulion-vlc",
   "version": "1.0.0",
   "description": "see-also: /r/nhlstreams",
+  "bin": "index.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,10 @@
     "vlc",
     "nhl"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiefy/node-hockey-helper.git"
+  },
   "author": "Christopher 'Chief' Najewicz <chief@beefdisciple.com>",
   "license": "MIT",
   "dependencies": {
@@ -19,6 +24,7 @@
     "dejsonp": "0.0.2",
     "inquirer": "^0.8.0",
     "lodash": "^2.4.1",
+    "minimist": "^1.1.0",
     "request-promise": "^0.3.3",
     "sudo": "^1.0.3"
   }
