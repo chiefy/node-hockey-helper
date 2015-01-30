@@ -39,8 +39,9 @@ $ npm install -g hockey-helper
 ## Usage
 After you install the module, you should be able to 
 ```
-$ hockey-helper
+$ hockey-helper <path-to-fuckneulionv2.jar>
 ```
+
 ## OS Support
 Currently the following are supported:
  - OSX
