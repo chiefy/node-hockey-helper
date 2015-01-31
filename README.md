@@ -13,10 +13,10 @@ $ hockey-helper <path-to-fuckneulionv2.jar>
 Wait for `"HOUSTON, WE HAVE LIFTOFF!"` Start VLC, pick home/away stream from game you just selected.
 
 ## Pre-reqs
- - NodeJS
+ - [NodeJS](http://nodejs.org)
  - Java
- - VLC (and VLC /r/hockey lua script)
- - FuckNeulionV2.jar (please don't ask where to get it)
+ - [VLC](http://www.videolan.org/vlc/) (and VLC [/r/hockey lua script](https://raw.githubusercontent.com/InfernoZeus/rhockey-vlc/no-time-mod/hockey.luac))
+ - [FuckNeulionV2.jar](https://www.reddit.com/r/NHLStreams/comments/2izhk1/the_vlc_fix/)
 
 ## Installation
 First off, make sure you have installed NodeJS and Java properly. You can test this by issuing the following commands in a command prompt:
@@ -50,4 +50,6 @@ Currently the following are supported:
 I have plans on making it work for Windows, but haven't had the opportunity to test it yet, so stay tuned!
 
 ## Feedback / Questions / Support
-@todo put a link to a /r/nhlstreams thread about this here 
+For support, please check [the /r/NHLstreams thread.](https://www.reddit.com/r/NHLStreams/comments/2u5ni7/nodehockeyhelper_another_fnv2_helper_script/)
+
+Please report bugs [in github issues tracker](https://github.com/chiefy/node-hockey-helper/issues)
