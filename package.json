@@ -1,6 +1,6 @@
 {
   "name": "hockey-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "see-also: /r/nhlstreams",
   "bin": "index.js",
   "main": "index.js",
