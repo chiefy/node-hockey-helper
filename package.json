@@ -1,6 +1,6 @@
 {
   "name": "hockey-helper",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "see-also: /r/nhlstreams",
   "bin": "index.js",
   "main": "index.js",
@@ -22,6 +22,7 @@
     "bluebird": "^2.8.1",
     "commander": "^2.6.0",
     "dejsonp": "0.0.2",
+    "digits": "^0.2.0",
     "inquirer": "^0.8.0",
     "lodash": "^2.4.1",
     "minimist": "^1.1.0",
