@@ -19,7 +19,9 @@
   "author": "Christopher 'Chief' Najewicz <chief@beefdisciple.com>",
   "license": "MIT",
   "dependencies": {
+    "biased-opener": "^0.2.6",
     "bluebird": "^2.8.1",
+    "chalk": "^1.1.1",
     "commander": "^2.6.0",
     "dejsonp": "0.0.2",
     "digits": "^0.2.0",
