@@ -1,3 +1,6 @@
+# No Longer Relevant
+As of January, 2016, the NHL streaming is done by MLBAM, and this hack no longer works. Sorry!
+
 # Hockey Helper
 This is a NodeJS command line program that helps interface with `FuckNeulionV2.jar`
 
